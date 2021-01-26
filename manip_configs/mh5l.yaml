@@ -1,0 +1,25 @@
+!!omap
+- manipulator: !!omap
+  - name: mh5l
+  - keypoints:
+    - name: base_link
+      friendly_name: Base
+      ros_frame: base_link
+    - name: link_1_s
+      friendly_name: sJoint
+      ros_frame: link_1_s
+    - name: link_2_l
+      friendly_name: lJoint
+      ros_frame: link_2_l
+    - name: link_3_u
+      friendly_name: uJoint
+      ros_frame: link_3_u
+    - name: link_4_r
+      friendly_name: rJoint
+      ros_frame: link_4_r
+    - name: link_5_b
+      friendly_name: bJoint
+      ros_frame: link_5_b
+    - name: link_6_t
+      friendly_name: tJoint
+      ros_frame: link_6_t
